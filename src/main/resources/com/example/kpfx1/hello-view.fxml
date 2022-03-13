@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kpfx1.List">
+   <children>
+      <Button fx:id="btnA" layoutX="277.0" layoutY="361.0" mnemonicParsing="false" onAction="#main" text="Запуск" />
+      <Label fx:id="lb2" layoutX="378.0" layoutY="77.0" prefHeight="66.0" prefWidth="159.0" style="-fx-background-color: #ffc0cb;" />
+      <TextField fx:id="tf" layoutX="229.0" layoutY="265.0" promptText="Число для заполнения" />
+      <TextField fx:id="tf1" layoutX="163.0" layoutY="296.0" prefHeight="25.0" prefWidth="122.0" promptText="После какого числа" />
+      <TextField fx:id="tf2" layoutX="228.0" layoutY="327.0" promptText="Число для удаления" />
+      <TextField fx:id="tf11" layoutX="316.0" layoutY="296.0" prefHeight="25.0" prefWidth="122.0" promptText="Какое число" />
+      <Label fx:id="lb" layoutX="65.0" layoutY="77.0" prefHeight="66.0" prefWidth="159.0" style="-fx-background-color: #ffff66;" />
+      <Label fx:id="lb1" layoutX="65.0" layoutY="178.0" prefHeight="66.0" prefWidth="159.0" style="-fx-background-color: #75c1ff;" />
+      <Label fx:id="lb3" layoutX="378.0" layoutY="178.0" prefHeight="66.0" prefWidth="159.0" style="-fx-background-color: #ffc966;" />
+      <Label layoutX="70.0" layoutY="60.0" prefHeight="17.0" prefWidth="83.0" text="Список 1" />
+      <Label layoutX="65.0" layoutY="161.0" prefHeight="17.0" prefWidth="134.0" text="Измененный список 1" />
+      <Label layoutX="377.0" layoutY="60.0" prefHeight="17.0" prefWidth="66.0" text="Список 2" />
+      <Label layoutX="377.0" layoutY="161.0" prefHeight="17.0" prefWidth="134.0" text="Измененный список 2" />
+      <Label fx:id="lbE" layoutX="31.0" layoutY="10.0" prefHeight="59.0" prefWidth="542.0" />
+   </children>
+</Pane>
